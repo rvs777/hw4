@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   resources :users
   resources :places
   resources :posts
+  resources :sessions
   root to: "places#index"
 end

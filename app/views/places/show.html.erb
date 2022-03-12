@@ -3,7 +3,7 @@
 <% if @current_user %>
   <h1><%= @place.name %></h1>
   <p>
-    <a href="/posts/new?place_id=<%= @place.id %>">New Post</a>
+    <a class="btn btn-primary" href="/posts/new?place_id=<%= @place.id %>">New Post</a>
   </p>
   <h2>My Posts</h2>
   <div class="row">
@@ -24,7 +24,7 @@
   
 
   <p>
-    <a href="/places">Back to All Places</a>
+    <a class="btn btn-primary" href="/places">Back to All Places</a>
   </p>
 
 <% else %>
